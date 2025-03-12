@@ -112,7 +112,7 @@ console.log(game)
 
 for (let i=0; i< game.party.length; i++) {
     let evolvedPokemonIdx = game.party[i].number
-    game.party.splcie(i, 1, pokemon[evolvedPokemonIdx]);
+    game.party.splice(i, 1, pokemon[evolvedPokemonIdx]);
 }
 
     console.log(game);
@@ -145,7 +145,7 @@ Solve Exercise 9 here:
 */
 
 
-for (leti=0; i< pokemon.length; i++{
+for (let i=0; i< pokemon.length; i++{
     if (pokemon[0].starter)
 })
 
